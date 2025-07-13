@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 
-// Create or open database
+
 const db = new sqlite3.Database(path.resolve(__dirname, 'cms.db'), (err) => {
   if (err) {
     console.error('Failed to connect to DB:', err.message);
@@ -10,7 +10,7 @@ const db = new sqlite3.Database(path.resolve(__dirname, 'cms.db'), (err) => {
   }
 });
 
-// Create table if not exists
+
 db.run(`
   CREATE TABLE IF NOT EXISTS site_heading (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
