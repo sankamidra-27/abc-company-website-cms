@@ -1,0 +1,87 @@
+/* Global background */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffece5;
+}
+
+/* Wrapper to center content */
+.cms-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 80vw;
+}
+
+/* Card style */
+.cms-container {
+justify-content: center;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  text-align: center;
+  color: #000000;
+}
+
+.cms-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.cms-container label {
+  font-weight: 600;
+  font-size: 1rem;
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: #000000;
+  margin-left: 4%;
+}
+
+.cms-container textarea {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ffd3c5;
+  background-color: #fff6f2;
+  color: black;
+  resize: none;
+  margin-bottom: 0.5rem;
+}
+
+.char-count {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  margin-right: 4%;
+}
+
+.cms-container button {
+  background-color: #ff5a2c;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cms-container button:hover {
+  background-color: #e44b1a;
+}
+
+.status {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #28a745;
+}
